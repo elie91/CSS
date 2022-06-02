@@ -18,9 +18,21 @@
     color: $color-dark-light;
     letter-spacing: .11px;
     font-size: 1.7rem;
-
+    font-weight: 300;
+    list-style: none;
     @include mediaQuery(tab-port) {
       display: none;
+    }
+
+    li {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+
+      i {
+        margin-top: 4px;
+      }
     }
   }
 
