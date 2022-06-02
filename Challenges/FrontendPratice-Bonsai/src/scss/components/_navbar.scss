@@ -1,0 +1,20 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 0px;
+
+  &__links {
+    display: flex;
+    gap: 30px;
+    color: $color-dark-light;
+    letter-spacing: .11px;
+    font-size: 1.7rem;
+  }
+
+  &__buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+}
