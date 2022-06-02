@@ -13,15 +13,15 @@ html {
 
 	//les phone auront la même media query que le tab-port, car le if s'applique aux 2 cas (phone et tab-port)
 
-	@include respond(tab-land) { //width < 1200 ?
+	@include mediaQuery(tab-land) { //width < 1200 ?
 		font-size: 56.25%; //1 rem = 9px, 9/16 = 56.25%
 	}
 
-	@include respond(tab-port) { //width < 900 ?
+	@include mediaQuery(tab-port) { //width < 900 ?
 		font-size: 50%; //1 rem = 8px, 8/16 = 50%
 	}
 
-	@include respond(big-desktop) { //width > 1800 ?
+	@include mediaQuery(big-desktop) { //width > 1800 ?
 		font-size: 75%;   //1 rem = 12px, 12/16 = 75%
 	}
 }
